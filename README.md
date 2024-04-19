@@ -16,7 +16,7 @@ This maker takes two configuration objects: `codesigning` for codesigning and `u
 // forge.config.js with minimal configuration
 makers: [
     {
-      name: "@felixrieseberg/electron-forge-maker-nsis",
+      name: "@electron-addons/electron-forge-maker-nsis",
       config: {},
     }
   ]
@@ -26,7 +26,7 @@ makers: [
   // forge.config.js with example configuration
   makers: [
     {
-      name: "@felixrieseberg/electron-forge-maker-nsis",
+      name: "@electron-addons/electron-forge-maker-nsis",
       config: {
         codesigning: {
           certificateFile?: string;
