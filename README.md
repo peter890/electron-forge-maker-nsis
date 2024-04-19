@@ -1,6 +1,6 @@
 # electron-forge-maker-nsis [![npm][npm_img]][npm_url]
 
-An `electron-forge` maker for NSIS that supports `electron-forge` v6 and can be used as a
+An `electron-forge` maker for NSIS that supports `electron-forge` v7 and can be used as a
 replacement for `electron-builder`. Supports code-signing and basic updates with `electron-updater`.
 
 This maker takes two configuration objects: `codesigning` for codesigning and `updater` for `electron-updater` support. Both of them are optional, the feature in question will simply be turned off if not provided.
